@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ColorRange3</title>
+  <style type="text/css">
+  #content {
+    width: 500px;
+    height: 600px;
+    border: 1px solid #CCC;
+  }
+
+  .cuboColor {
+    width: 30px;
+    height: 30px;
+    background-color: #CCC;
+    float: left;
+    margin: 1px;
+  }
+
+  input[type="range"] {
+    width: 500px;
+    display: block;
+  }
+  </style>
+</head>
+<body>
+  <input type="text" id="red" placeholder="Red" value="127">
+  <input type="text" id="green" placeholder="Green" value="165">
+  <input type="text" id="blue" placeholder="Blue" value="0">
+  <input type="range" id="rango" min="0" max="200">
+  <div id="content"></div>
+  <script type="text/javascript" src="js/colorRange.js"></script>
+</body>
+</html>    
